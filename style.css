@@ -1,0 +1,172 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.searchbox{
+    align-items: center;
+    padding: 10px 15px;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+
+}
+.hi{
+    font-size: 18px;
+}
+.signupbtn{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+}
+.loginbtn{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+}
+.hi1{
+    display: none;
+}
+.hi2{
+    border: 1px solid black;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
+}
+.data{
+    padding: 10px;
+}
+#container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.part1 img{
+    border-radius: 10px;
+}
+h6{
+    width: 300px;
+}
+
+.part1{
+    border: 1px solid black;
+    width: 320px;
+    border-radius: 10px;
+}
+.part2{
+    padding: 15px;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    column-gap: 25px;
+}
+#second img{
+    border-radius: 10px;
+}
+ul, li{
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;    
+}
+#data1{
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+}
+#part4{
+    height: 70px;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid black;
+    background-color: #d1d7dc;
+
+}
+ button:hover{
+    background-color:#d1d7dc;
+}
+.vin{
+    display: flex;
+    border: 1px solid #5022c3;
+    padding: 10px;
+    width: 75%;
+    border-radius: 5px;
+}
+.janu{
+    display: flex;
+    justify-content: space-between;
+}
+.vin1{
+    padding-left: 10px;
+}
+.data2{
+    display: flex;
+   justify-content: space-between;  
+}
+.data3{
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#btn1{
+    background-color: #2d2f31;
+    width: 330px;
+    height: 2.8rem;
+    color: white;
+    text-decoration: none;
+}
+#data4{
+    display: flex;
+   column-gap: 20px;
+}
+.data4{
+    padding: 30px;
+    border: 1px solid black;
+    width: 320px;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.data6{
+    display: flex;
+}
+.data7{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.data8{
+    display: flex;
+    padding-left: 20px;
+}
+.data9{
+    padding-top: 100px;
+    width: 350px;
+}
+.btn2{
+    width: 200px;
+    height: 45px;
+}
+
+@media(max-width:800px){
+    .hi1{
+        display: block;
+    }
+    .hi,input,.searchbox,button,.hi2{
+        display: none;   
+    }   
+}
